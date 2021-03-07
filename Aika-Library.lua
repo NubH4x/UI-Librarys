@@ -1,10 +1,10 @@
-_G.MainColor = Color3.fromRGB(30,30,30);
-_G.SecondaryColor = Color3.fromRGB(255,255,255);
+_G.MainColor = Color3.fromRGB(0,0,0);
+_G.SecondaryColor = Color3.fromRGB(30,30,30);
 _G.TertiaryColor = Color3.fromRGB(255,255,255);
 _G.ArrowColor = Color3.fromRGB(0,0,0);
 _G.MainTextColor = Color3.fromRGB(255,255,255);
-_G.PointerColor = Color3.fromRGB(255,255,255);
-_G.ButtonTextColor = Color3.fromRGB(255,255,255);
+_G.PointerColor = Color3.fromRGB(0,0,0);
+_G.ButtonTextColor = Color3.fromRGB(0,0,0);
 _G.SliderColor = Color3.fromRGB(255,255,255);
 _G.ButtonColor = Color3.fromRGB(255,255,255);
 _G.ToggleColor = Color3.fromRGB(255,255,255);
