@@ -1660,7 +1660,6 @@ function library:Init()
 		AnchorPoint = Vector2.new(0, 0),
 		Size = UDim2.new(0, 0, 0, 0),
 		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
-	        Transparency = 1
 		Parent = self.base
 	})
 
@@ -1703,8 +1702,8 @@ end)
 
 inputService.InputChanged:connect(function(input)
 	if input.UserInputType == Enum.UserInputType.MouseMovement and library.cursor then
-		local mouse = inputService:GetMouseLocation() + Vector2.new(0, -36) -- original 0, -36
-		library.cursor.Position = UDim2.new(0, mouse.X - 0, 0, mouse.Y - 0) -- original 0, mouse.X - 2, 0, mouse.Y - 2
+		local mouse = inputService:GetMouseLocation() + Vector2.new(0, -0) -- original -36
+		library.cursor.Position = UDim2.new(0, mouse.X - 2, 0, mouse.Y - 2)
 	end
 	if input == dragInput and dragging then
 		update(input)
