@@ -1660,6 +1660,7 @@ function library:Init()
 		AnchorPoint = Vector2.new(0, 0),
 		Size = UDim2.new(0, 0, 0, 0),
 		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+	        BackgroundTransparency = 1
 		Parent = self.base
 	})
 
